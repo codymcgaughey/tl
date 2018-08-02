@@ -2,7 +2,7 @@
 title: "Seo"
 date: 2018-07-21T12:50:31-07:00
 draft: false
-keywords:
+keywords: "las vegas seo, las vegas search engine optimization, las vegas small business"
 ---
 
 <h3>Every webpage needs SEO.</h3>

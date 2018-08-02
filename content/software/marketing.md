@@ -2,7 +2,7 @@
 title: "Marketing"
 date: 2018-07-29T16:24:23-07:00
 draft: false
-keywords: "las vegas, digital marketing, seo, sem, nap listing, "
+keywords: "las vegas digital marketing, las vegas seo, small business seo, search engine marketing, nap listing, las vegas local search"
 ---
 
 <h3>Every website needs marketing. But what kind?</h3>
