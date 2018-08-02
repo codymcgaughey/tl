@@ -1,0 +1,42 @@
+{{ partial "header.html" . }}
+
+    <!-- Wrapper -->
+      <div id="wrapper">
+
+        <!-- Header -->
+          <header id="header">
+            <div class="content">
+              <div class="inner">
+                <h1>{{ .Site.Title | safeHTML }}</h1>
+                <p>{{ .Site.Params.description | safeHTML }}</p>
+              </div>
+            </div>
+            <nav>
+              <ul>
+                {{ range where .Data.Pages "Section" "software"}}
+                  <li>{{ if isset .Params "link" }}<a href="{{ index .Params "link" }}"{{else}}<a href="#{{ .File.TranslationBaseName }}"{{end}}>{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}</a></li>
+                {{ end }}
+              </ul>
+            </nav>
+            <div class="webinquiry">
+              <a href="#contact"><button>Website Design Inquiries</button></a>
+            </div>
+          </header>
+
+        <!-- Main -->
+          <div id="main">
+            {{ range .Data.Pages }}
+              {{ .Render "onepagestyle" }}
+            {{ end }}
+          </div>
+
+        <!-- Multilanguage -->
+          <div id="languages">
+            {{ if .IsTranslated }}
+              {{ range $i, $e := .Translations }}
+                {{ if $i }}, {{ end }}<a href="{{ .Permalink }}">{{ $e.Language.LanguageName }}</a>
+              {{ end}}
+            {{ end }}
+          </div>
+
+{{ partial "footer.html" . }}

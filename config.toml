@@ -1,0 +1,27 @@
+baseurl = "https://techlook.io"
+title = "techlook.io"
+subtitle = "las vegas website design & SEO"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+canonifyURLs = true
+disableKinds=["RSS"]
+googleAnalytics = "101650119"
+
+
+[params]
+  description = '<!--[-->las vegas based website design, SEO, & marketing for small businesses<!--]-->'
+  copyright = "techlook.io - las vegas, nevada - 2018"
+  notfound = "This page doesn't exist. How about heading to our homepage?"
+  notfoundtitle = "Error: 404"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1

@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+<!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+      <header id="header">
+        <div class="content">
+          <div class="inner">
+            <h1>{{ .Site.Params.notfoundtitle | safeHTML }}</h1>
+            <p>{{ .Site.Params.notfound | safeHTML }}</p>
+            <a class="icon" href="https://techlook.io"> <i class="fas fa-home fa-4x"></i></a>
+
+          </div>
+        </div>
+      </header>
+
+
+{{ partial "footer.html" . }}
