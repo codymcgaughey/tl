@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+/* @import url(font-awesome.min.css); */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /* Reset */
@@ -60,6 +60,14 @@ body {
     -webkit-transition-delay: none !important;
     -ms-transition-delay: none !important;
     transition-delay: none !important; }
+
+@font-face {
+      font-family: 'RElapse-Regular';
+      src: url('../fonts/RElapse-Regular.otf');
+      src: url('../fonts/RElapse-Regular.otf') format("opentype");
+      font-weight: normal;
+      font-style: normal;
+      }
 
 /* Type */
 html {
