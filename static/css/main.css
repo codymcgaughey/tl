@@ -1192,7 +1192,6 @@ body.is-loading #optbg:before {
   z-index: 3;
 }
 
-/* Blog Wrapper */
 
 #blogwrapper:before {
   content: '';
