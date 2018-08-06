@@ -6,16 +6,19 @@
 <div id="blogwrapper">
 
   <!-- Header -->
+
   <header id="blogheader">
     <div class="content">
         <div class="inner">
+          <div id="main" style="display: flex;">
+             <article id="marketing" style="display: block;" class="active">
           <h1><a href="https://techlook.io">techlook.io</a></h1>
           <br>
           <h2>{{ .Title }}</h2>
-        </div>
+
       {{ .Content }}
         </div>
-
+        </div>
     </header>
 
 </html>
