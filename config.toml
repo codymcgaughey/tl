@@ -1,5 +1,5 @@
 baseurl = "https://techlook.io"
-title = "techlook.io"
+title = "techlook.io: Las Vegas Web Design"
 subtitle = "las vegas website design & SEO"
 languageCode = "en-us"
 defaultContentLanguage = "en"
@@ -10,7 +10,7 @@ googleAnalytics = "101650119"
 
 
 [params]
-  description = '<!--[-->las vegas based website design, SEO, & marketing for small businesses<!--]-->'
+  description = '<!--[-->las vegas based website design, SEO & marketing for small businesses<!--]-->'
   copyright = "techlook.io - las vegas, nevada - 2018"
   notfound = "This page doesn't exist. How about heading to our homepage?"
   notfoundtitle = "Error: 404"
