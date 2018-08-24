@@ -1190,6 +1190,14 @@ body.is-loading #bg:before {
   max-width: 100%;
 }
 
+#header .content {
+  border-style: solid;
+  border-color: #ffffff;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  max-width: 100%;
+}
+
 #header .content .inner {
   -moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
   -webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -1209,10 +1217,9 @@ body.is-loading #bg:before {
 }
 
 #header .content p {
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  font-size: 0.8rem;
-  line-height: 2;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
 }
 
 #header nav ul {
