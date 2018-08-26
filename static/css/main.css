@@ -271,7 +271,7 @@ pre code {
 hr {
   border: 0;
   border-bottom: solid 1px #ffffff;
-  margin: 2rem 0;
+  margin: 2.75rem 0;
 }
 
 .align-left {
@@ -1222,7 +1222,7 @@ body.is-loading #bg:before {
   text-align: left;
 }
 
-#header img {
+#header .content img {
   max-width: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
