@@ -271,7 +271,7 @@ pre code {
 hr {
   border: 0;
   border-bottom: solid 1px #ffffff;
-  margin: 2.75rem 0;
+  margin: 2rem 0;
 }
 
 .align-left {
@@ -1222,6 +1222,12 @@ body.is-loading #bg:before {
   text-align: left;
 }
 
+#header img {
+  max-width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 #header nav ul {
   display: -moz-flex;
   display: -webkit-flex;
@@ -1554,7 +1560,6 @@ body.is-loading #header .content .inner {
   font-size: 3rem;
   font-family: "Source Sans Pro", sans-serif;
 }
-
 
 #blogwrapper h1 {
   font-size: 3.5rem;
