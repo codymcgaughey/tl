@@ -1,24 +1,22 @@
 {{ partial "header.html" . }}
 <!DOCTYPE html>
 <html>
-
 <head>
-
   <div id="blogwrapper">
-
     <!-- Header -->
-
     <header id="header">
       <div class="content">
         <div id="main">
-          <article id="marketing" style="display: block;" class="active">
-            <h1><a href="https://techlook.io">techlook.io</a></h1>
+
+          <article id="article" style="display: block;" class="active">
+            <h2><a href="https://techlook.io">techlook.io</a></h2>
             <br>
-            <h2>{{ .Title }}</h2> {{ .Content }}
+            <div id="blogtitle"><h1>{{ .Title }}</h1></div>
+            <p>{{ .Content }}</p>
+
         </div>
       </div>
     </header>
-
 </html>
 <script src="/js/main.js"></script>
 

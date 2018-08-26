@@ -1297,7 +1297,7 @@ body.is-loading #header {
   filter: blur(0.125rem);
 }
 
-body.is-loading #header>* {
+body.is-loading #header >* {
   opacity: 0;
 }
 
@@ -1493,7 +1493,7 @@ body.is-loading #header .content .inner {
   position: relative;
   width: 40rem;
   max-width: 100%;
-  background-color: rgba(27, 31, 34, 0.85);
+  background-color: rgba(27, 31, 34, 0.95);
   border-radius: 4px;
   opacity: 0;
 }
@@ -1549,6 +1549,12 @@ body.is-loading #header .content .inner {
 #main article .close:hover:before {
   background-color: rgba(255, 255, 255, 0.075);
 }
+
+#article h1 {
+  font-size: 3rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 
 #blogwrapper h1 {
   font-size: 3.5rem;
